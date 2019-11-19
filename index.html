@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- Not all programed by Blake Mitrick, some code is borrowed. If I borrowed your code and forgot to credit you, let me know and I'll fix it. Thank you -->
+<html lang="en">
+
+<head>
+    <title>public Main()</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/grid_6.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="full" align="middle">
+                <h1><a href="index.html" style="color: #000000">public Main()</a></h1>
+            </div>
+        </div>
+    </div>
+</header>    
+
+<section>
+    <div class="container" > <!-- access bar -->
+        <div class="navbar">
+            <ul>
+                <li><a href="practice.html">Practice</a></li>
+                <li><a href="game_changers.html">Game Changers</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="container" style="border: 2px solid #DDDDDD"> <!-- Main page -->
+        <div class="row">
+            <div class="full">
+                <p style="text-align: center; font-size: 30px">Welcome</p>
+                <p style="text-align: center">This website is designed to help young people learn more about the skills and big names in the field of computer science.</p>
+                <p>Please explore...</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="one-third">
+                <p style="text-align: center"><a href="practice.html" style="color: #000000; font-size: 25px"; >Practice</a></p>
+                <img src="img/java.png" alt="https://www.flaticon.com/free-icon/java_121152" style="border: 4px solid #AFBED1; margin: 0 calc((100% - 100px)/2); width: 100px; height: 100px">
+                <p>Practice coding problems ranging from introductory level to intermediate. These problems will help you learn the basics of Java to get a leg up on other students.</p>
+            </div>
+            <div class="one-third">
+                <p style="text-align: center"><a href="game_changers.html" style="color: #000000; font-size: 25px"; >Game Changers</a></p>
+                <img src="img/programmer.png" alt="https://learnworthy.net/10-things-every-programmer-should-know/" style="border: 4px solid #AFBED1; margin: 0 calc((100% - 100px)/2); width: 100px; height: 100px">
+                <p>The faces and stories behind the biggest names in computer science. These computer scientists changed the field in a big way, earning their spot on our Game Changers page.</p>
+            </div>
+            <div class="one-third">
+                <p style="text-align: center"><a href="resources.html" style="color: #000000; font-size: 25px"; >Resources</a></p>
+                <img src="img/resources.png" alt="https://www.lstmed.ac.uk/lstm-library/library-resources" style="border:4px solid #AFBED1; margin: 0 calc((100% - 100px)/2); width: 100px; height: 100px">
+                <p>Extra resources to learn more about programming and computer science. Filled with websites and books that are great tools when learning to code.</p>
+            </div>
+        </div>
+    </div>    
+</section>
+
+<footer>
+    <div class="container"> <!-- footer with links and such -->
+        <div class="row">
+            <div class="one-third">
+                <h3>LINKS AREA HOLDER</h3>
+            </div>
+            <div class="one-third">
+                <h3>Created By</h3>
+                <h3>mitrickb@g.cofc.edu</h3>
+            </div>
+            <div class="one-thrid">
+                <h3>Borrowed Code</h3>
+                <p><a href="https://github.com/joncoop">Base of CSS by Jon Cooper</a></p>
+                <p><a href="https://jquery.org/">jQuery by jQuery Foundation</a></p>
+                <p><a href="https://owlcarousel2.github.io/OwlCarousel2/">Owl Carousel by David Deutsch</a></p>
+            </div>
+        </div>    
+    </div>
+</footer>    
+    
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<script>
+    $('#my-carousel').owlCarousel({
+        items:  1,
+        margin: 10,
+        loop : true,
+        autoplay : true,
+        autoplayHoverPause : true,
+        autoplayTimeout : 3000,
+        dots : false,
+        nav : false,
+})
+</script>    
+</body>
+
+</html>
